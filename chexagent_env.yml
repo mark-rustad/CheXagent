@@ -1,0 +1,30 @@
+name: chexagent
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - autopep8
+  - black
+  - ipywidgets
+  - isort
+  - matplotlib
+  - notebook
+  - numpy
+  - pillow
+  - pytorch
+  - pytorch-cuda
+  - requests
+  - rich
+  - scikit-learn
+  - scikit-multilearn
+  - seaborn
+  - torchvision
+  - tqdm
+  - transformers
+  - pip
+  - pip:
+      - pandas[performance, plot, output-formatting, computation, excel, html, hdf5, parquet,
+        feather, spss, clipboard, compression]
+      - einops
